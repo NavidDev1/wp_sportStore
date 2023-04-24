@@ -29,6 +29,6 @@ function replace_k_with_m($var) {
 
 
 	// using the filter to remove someting, in this case the admin bar for logged in users.
-	//remove the blackslash below to run this action
+	//replace the blackslash below to NOT run this action
 	
-	//add_filter('show_admin_bar', '__return_false');
+	add_filter('show_admin_bar', '__return_false');
